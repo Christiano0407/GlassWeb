@@ -89,3 +89,63 @@ main {
       color: var(--clr-wt);
       cursor: pointer;
   }
+  .pro {
+      background: linear-gradient(to right top,  #65dfc9, #6cdbeb);
+      border-radius: 2rem;
+      color: var(--clr-wt);
+      padding: 1rem;
+      position: relative;
+  }
+  .pro img {
+      position: absolute;
+      top: -10%;
+      right: 10%;
+  }
+  .pro h2 {
+      width: 40%;
+      color: var(--clr-wt);
+      font-weight: 600;
+  }
+  /*Games*/
+  .games {
+      flex: 2;
+  }
+  .games {
+      margin: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+  .status {
+      margin-bottom: 3rem;
+  }
+  .status input {
+    background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+   );
+    border: none;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+  }
+  /*Card*/
+  .card {
+      display: flex;
+      justify-content: space-between;
+      border-radius: 1rem;
+      margin: 2rem 0rem;
+      padding: 2rem;
+      box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+      background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  }
+  .card-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
